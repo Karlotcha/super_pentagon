@@ -1,5 +1,3 @@
-$('body').append('<canvas id="canvas" width="1000" height="1000" style="border:1px solid red;"></canvas>')
-
 // Point class
 function Point(x,y) {
   this.x = x
@@ -45,29 +43,3 @@ Pentagon.random = function() {
 
   new Pentagon(a, b, c, d, e)
 }
-
-// helpers
-function rand(n) {
- return Math.floor(Math.random()*n)
-}
-
-function random_color() {
-  var r = rand(255)
-    , g = rand(255)
-    , b = rand(255)
-
-  return "rgb(" + r + "," + g + "," + b + ")"
-}
-
-// main
-var c      = document.getElementById("canvas")
-  , ctx    = c.getContext("2d")
-  , width  = c.width
-  , height = c.height
-  , core_x = width/2
-  , core_y = height/2
-  , image  = ctx.getImageData(0, 0, width, height)
-
-setInterval(function() {
-  Pentagon.random()
-}, 1)

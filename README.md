@@ -8,3 +8,10 @@ Trying out few algorithms and tools to generate this kind of tilings. I would li
   - Rust
   - genetic algorithms
   - artificial neural networks
+
+
+## Resources
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors
